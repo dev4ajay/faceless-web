@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-
 const Page = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white p-4 border mt-2 mb-2">
@@ -17,8 +17,8 @@ const Page = () => {
 
         <div className="md:w-1/2 p-4">
           <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-            <button className="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Pricing</button>
-            <button className="w-full border border-black py-2 rounded hover:bg-gray-200">Sign Up</button>
+            <Link href={"/pages/login"} className="w-full bg-black text-center text-white py-2 rounded hover:bg-gray-800">Pricing</Link>
+            <Link  href={"/pages/signup"} className="w-full border border-black py-2 text-center rounded hover:bg-gray-200">Sign Up</Link>
           </div>
         </div>
 

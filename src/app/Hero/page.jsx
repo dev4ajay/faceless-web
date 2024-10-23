@@ -49,10 +49,10 @@ const Hero = () => {
         <div className="w-full md:w-1/2 mb-8 text-center md:text-left">
           <h1 className="text-4xl font-bold">Automate Your Content Creation with</h1>
           <h1 className="text-4xl font-bold text-black bg-gray-200 px-4 inline-block">Faceless Videos</h1>
-          <p className="mt-4 text-lg">
+          <p className="mt-4 text-lg mb-2">
             Transform your ideas into engaging videos without showing your face. Perfect for creators!
           </p>
-          <button className="mt-6 bg-black text-white py-2 px-6 rounded-lg">Get Started</button>
+          <Link href={"/pages/login"} className="mt-6 bg-black text-white py-2 px-6 rounded-lg  mb-2">Get Started</Link>
         </div>
 
         <div className="relative w-full md:w-1/2">
